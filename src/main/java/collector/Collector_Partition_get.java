@@ -37,7 +37,7 @@ class MyClass {
        b -> b.getReleaseDate()
              .isAfter(IsoChronology.INSTANCE.date(2018, 1, 1));
 
-  Set<String> newBooks =
+  Set<String> books =
        collectPartit
             .stream()
             .collect(Collectors.partitioningBy(p))
